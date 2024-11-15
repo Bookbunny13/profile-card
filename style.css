@@ -1,0 +1,89 @@
+body {
+    background-color: #f4f4f9;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.profile-card {
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.7);
+    background-color: aliceblue;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-card h3 {
+    color: #4A90E2;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.profile-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.profile-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+    max-width: 250px;
+}
+
+.profile-card h3 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.profile-card mark {
+    background-color: #f9e97b;
+    padding: 0.1rem 0.2rem;
+    border-radius: 5px;
+    color: #333;
+}
+
+.profile-card h3 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #4A90E2;
+}
+
+.hobbies {
+    color: #777;
+    font-style: italic;
+}
+
+.profile-card .button {
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.profile-card .button:hover {
+    background-color: #357ABD;
+}
